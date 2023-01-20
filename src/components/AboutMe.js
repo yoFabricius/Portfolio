@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="h-screen flex items-center snap-center   ">
+    <div className="h-screen flex items-center snap-start   ">
       <div
         id="left"
         className="relative flex flex-1 items-center justify-center h-full "
