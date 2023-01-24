@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe.js";
+import Contact from "./components/Contact.js";
 import Introduction from "./components/Introduction";
 import ProjectList from "./components/ProjectList.js";
 
@@ -8,6 +9,7 @@ function App() {
     <Introduction />
     <AboutMe />
     <ProjectList />
+    <Contact />
    </div>
   );
 }
