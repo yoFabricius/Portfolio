@@ -21,19 +21,20 @@ function Contact() {
   return (
     <div className="h-screen snap-start relative ">
       <div id="bg" className="w-[20px] h-[100%] bg-green-500 absolute"></div>
-      <div id="wrapper" className="flex p-[50px] min-[320px]:flex-col min-[320px]:py-[100px]">
+      <div id="wrapper" className="flex p-[50px] flex-col py-[100px] md:flex-row">
         <div id="left" className="flex-1">
-          <h1 className="text-[60px] w-[80%] font-semibold min-[320px]:text-[30px]">Let's discuss your project</h1>
+          <h1 className="md:text-[60px] w-[80%] font-semibold text-[30px]">Let's discuss your project</h1>
           <div id="info">
-            <div id="info-item" className="flex items-center my-[50px] mx-0 font-bold w-[70%] min-[320px]:my-[20px] min-[320px]:w-full">
+            <div id="info-item" className="flex items-center md:my-[50px] mx-0 font-bold md:w-[70%] my-[20px] w-full">
               <PhoneIcon className="mr-[20px]" fontSize="large" />
               +1 978-390-3564
             </div>
-            <div className="flex items-center my-[50px] mx-0 font-bold w-[70%] min-[320px]:my-[20px] min-[320px]:w-full ">
+            <div className="flex items-center md:my-[50px] mx-0 font-bold md:w-[70%] my-[20px] w-full " onClick={(e) => {window.location.href ='mailto:yofabricius@icloud.com';}}>
+              
               <EmailIcon className="mr-[20px]" fontSize="large" />
               yofabricius@icloud.com
             </div>
-            <div className="flex items-center my-[50px] mx-0 font-bold w-[70%] min-[320px]:my-[20px] min-[320px]:w-full">
+            <div className="flex items-center md:my-[50px] mx-0 font-bold md:w-[70%] my-[20px] w-full">
               <HomeIcon className="mr-[20px]" fontSize="large" />
               278 Lawrence st, Lawrence, MA, 01841
             </div>

@@ -5,7 +5,7 @@ import ProjectList from "./components/ProjectList.js";
 
 function App() {
   return (
-   <div className="snap-y snap-mandatory overflow-scroll h-screen">
+   <div className="snap-y snap-mandatory overflow-scroll h-screen bg-[#264653]">
     <Introduction />
     <AboutMe />
     <ProjectList />
