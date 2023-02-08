@@ -1,4 +1,5 @@
 import React from "react";
+import me2 from "../img/me2.JPG"
 
 function AboutMe() {
   return (
@@ -12,9 +13,10 @@ function AboutMe() {
         <div id="card" className="md:w-[60%] md:h-70v relative h-30v w-full  ">
           <img
             className="object-cover w-full h-full rounded-[30px]"
-            src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQkrjYxSfSHeCEA7hkPy8e2JphDsfFHZVKqx-3t37E4XKr-AT7DML8IwtwY0TnZsUcQ"
+            src={me2}
             alt=""
           />
+          
         </div>
       </div>
 

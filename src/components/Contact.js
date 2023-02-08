@@ -21,7 +21,6 @@ function Contact() {
     }
   return (
     <div className="h-screen snap-start relative ">
-      <div className="w-full h-5 pt-50 bg-black absolute"></div>
       <div id="bg" className="w-[20px] h-[100%] bg-green-500 absolute"></div>
       <div id="wrapper" className="flex p-[50px] flex-col py-[100px] md:flex-row">
         <div id="left" className="flex-1">
